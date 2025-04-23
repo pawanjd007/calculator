@@ -1,6 +1,13 @@
-a=int(input("Enter a: "));
-b=int(input("Enter b: "));
-
-sum=a-b;
-
-print("Sum is: ",sum);
+message='Hello World'
+print(message)
+print(len(message))
+print(message[0:5])
+print(message[6:11])
+print(message[6:])
+print(message[:5])
+print(message.upper())
+print(message.lower()) 
+print(message.count('z'))
+print(message.find('g'))
+# print(message.replace('World','Python'))
+print(message.replace('World','Python'))
